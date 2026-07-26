@@ -1,7 +1,7 @@
 import HomePage from "../Page/Home";
 
 export const metadata = {
-    title: "Home - Marko - Digital Marketing Agency",
+    title: "Upwardlyst | Digital Marketing Agency",
 };
 
 export default function Page() {
