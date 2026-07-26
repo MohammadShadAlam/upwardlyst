@@ -13,7 +13,7 @@ function ExpertiseSection(){
                             <div className="image-container expertise-img">
                                 <AnimateOnScroll animation="fadeInUp" speed="normal">
                                     <img
-                                        src="/assets/images/dummy-img-600x400.jpg"
+                                        src="/assets/images/download (6).jpg"
                                         alt="Expertise Image"
                                         className="img-fluid"
                                     />
@@ -52,8 +52,7 @@ function ExpertiseSection(){
                                 </h2>
                             </AnimateOnScroll>
                             <p>
-                                At Marko, we specialize in crafting innovative digital marketing strategies that drive real business growth. Our expertise
-                                ensures your brand stays ahead in the competitive digital landscape.
+                               At Digital Strategy Growth, we help businesses grow with smart, results-driven digital marketing solutions. From SEO and social media marketing to paid advertising, website development, and content strategy, our team creates customized campaigns that increase online visibility, attract qualified leads, and drive measurable business growth. We combine creativity, data, and the latest marketing trends to deliver strategies that help brands stand out, connect with their audience, and achieve long-term success in the digital world.
                             </p>
                             <div className="d-flex flex-column flex-md-row gspace-2">
                                 <div className="expertise-list">

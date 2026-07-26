@@ -11,7 +11,7 @@ const Footer = () => {
                             <div className="col col-lg-4">
                                 <div className="footer-logo-container">
                                     <div className="logo-container-footer">
-                                    <img src="/assets/images/marko-logo.png" alt="Logo" className="site-logo img-fluid" />
+                                    <img src="/assets/images/upwardlyst logo-dark-theme2.png" alt="Logo" className="site-logo img-fluid" />
                                     </div>
                                     <h4>Driving Digital Growth with Innovation & Strategy</h4>
                                     <p>
@@ -38,12 +38,16 @@ const Footer = () => {
                                 <div className="footer-services-container">
                                     <h5>Services</h5>
                                     <ul className="footer-list">
-                                        <li><a href="/single_services">Social Media Marketing</a></li>
-                                        <li><a href="/single_services">SEO Optimization</a></li>
-                                        <li><a href="/single_services">PPC Advertising</a></li>
+                                        <li><a href="/single_services">SEO</a></li>
                                         <li><a href="/single_services">Content Marketing</a></li>
-                                        <li><a href="/single_services">Branding Strategy</a></li>
+                                        <li><a href="/single_services">PPC Advertising</a></li>
+                                        <li><a href="/single_services">Performance Marekting</a></li>
+                                        <li><a href="/single_services">WhatsApp Marketing</a></li>
                                         <li><a href="/single_services">Email Marketing</a></li>
+                                        <li><a href="/single_services">Social Media Marketing</a></li>
+                                        <li><a href="/single_services">Web & App Development</a></li>
+                                        <li><a href="/single_services">Branding & Design</a></li>
+                                        
                                     </ul>
                                 </div>
                             </div>
@@ -52,9 +56,9 @@ const Footer = () => {
                                 <div className="footer-contact-container">
                                     <h5>Contact Info</h5>
                                     <ul className="contact-list">
-                                        <li>hello@markoagency.com</li>
-                                        <li>+1 234 567 890</li>
-                                        <li>123 Digital Street, New York, USA</li>
+                                        <li>upwardlyst@gmail.com</li>
+                                        <li>+91 9920726697</li>
+                                        <li>JTC, Frazer Road, Patna</li>
                                     </ul>
                                     <div className="d-flex flex-column gspace-1">
                                         <h5>Social Media</h5>

@@ -25,7 +25,7 @@ return (
                 <div className="logo-container">
                     <Link className="navbar-brand" href="/">
                     <img
-                        src="/assets/images/marko-logo.png"
+                        src="/assets/images/upwardlyst logo-dark-theme2.png"
                         className="site-logo img-fluid"
                         alt="Logo"
                     />
@@ -86,93 +86,15 @@ return (
                             </ul>
                         </li>
 
-                        <li className="nav-item dropdown">
-                            <a
-                            className={`nav-link dropdown-toggle ${
-                                isDropdownActive([
-                                "/case_studies",
-                                "/team",
-                                "/partnership",
-                                "/pricing",
-                                "/testimonial",
-                                "/faq",
-                                "/404_page",
-                                ])
-                                ? "active"
-                                : ""
-                            }`}
-                            href="#"
-                            role="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                            >
-                            Pages <i className="fa-solid fa-angle-down accent-color"></i>
-                            </a>
-                            <ul className="dropdown-menu">
-                            <li>
-                                <Link href="/case_studies" className={navClass("/case_studies", "dropdown-item")}>
-                                    Case Studies
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/team" className={navClass("/team", "dropdown-item")}>
-                                    Our Team
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/partnership" className={navClass("/partnership", "dropdown-item")}>
-                                    Partnership
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/pricing" className={navClass("/pricing", "dropdown-item")}>
-                                    Pricing Plan
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/testimonial" className={navClass("/testimonial", "dropdown-item")}>
-                                    Testimonial
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/faq" className={navClass("/faq", "dropdown-item")}>
-                                    FAQs
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/404_page" className={navClass("/404_page", "dropdown-item")}>
-                                    Error 404
-                                </Link>
-                            </li>
-                            </ul>
-                        </li>
-
+                        
                         {/* Archive Dropdown */}
-                        <li className="nav-item dropdown">
-                            <a
-                            className={`nav-link dropdown-toggle ${
-                                isDropdownActive(["/blog", "/single_post"]) ? "active" : ""
-                            }`}
-                            href="#"
-                            role="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                            >
-                            Archive <i className="fa-solid fa-angle-down accent-color"></i>
-                            </a>
-                            <ul className="dropdown-menu">
+                        
                                 <li>
-                                    <Link href="/blog" className={navClass("/blog", "dropdown-item")}>
+                                    <Link href="/blog" className={navClass("/blog")}>
                                         Blog
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link href="/single_post" className={navClass("/single_post", "dropdown-item")}>
-                                        Single Post
-                                    </Link>
-                                </li>
-                            </ul>
-                        </li>
+                                
 
                         <li className="nav-item">
                             <Link href="/contact" className={navClass("/contact")}>
@@ -191,7 +113,7 @@ return (
                         <div className="icon-circle">
                             <i className="fa-solid fa-phone-volume"></i>
                         </div>
-                        <h6>+1 (62) 987 7543</h6>
+                        <h6>+91 9920726697</h6>
                     </div>
                 </div>
             </div>
