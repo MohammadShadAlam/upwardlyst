@@ -26,11 +26,11 @@ const SingleServiceSection = () => {
                                         </AnimateOnScroll>
                                         <AnimateOnScroll animation="fadeInRight" speed="normal">
                                             <h3 className="title-heading">
-                                                Boost Your Brand with Strategic Social Media Marketing
+                                                Turn Social Attention Into Real Business Growth
                                             </h3>
                                         </AnimateOnScroll>
                                         <p>
-                                            Maximize engagement, build loyal communities, and drive conversions across all major platforms lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                            Build visibility, engage the right audience and generate demand with strategic social media marketing designed around your customers, brand and business goals.
                                         </p>
                                     </div>
                                 </div>
@@ -44,7 +44,8 @@ const SingleServiceSection = () => {
                             <div className="d-flex flex-column gspace-2">
                                 <h4>Overview</h4>
                                 <p>
-                                    At Marko, we help brands grow through custom-tailored social media marketing strategies that connect with your audience. From content creation to campaign optimization, we make sure your presence on platforms like Instagram, Facebook, LinkedIn, and TikTok stands out. Whether you’re launching a new brand or scaling an existing one, our experts turn social media into a powerful growth engine.
+                                    Darkmetrix helps businesses grow through social media marketing strategies built around audience intent, creative content and measurable performance. From Instagram and Facebook to LinkedIn and other relevant platforms, we plan content, manage paid campaigns and optimize performance to help your brand reach the right people.
+<br/>Whether you want to build awareness, generate leads or scale an established brand, we turn social attention into meaningful business opportunities.
                                 </p>
                                 <div className="row row-cols-md-2 row-cols-1 grid-spacer-2 grid-spacer-md-3">
                                     <div className="col">
@@ -71,15 +72,21 @@ const SingleServiceSection = () => {
                                     <h4>What's Included</h4>
                                     <div className="underline-accent-short"></div>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mollis ac odio et efficitur. Proin velit neque, sollicitudin nec purus eu, suscipit feugiat tellus.
+                                        Our social media marketing services combine strategy, content, advertising and performance insights to help your brand reach, engage and convert the right audience.
                                     </p>
                                     <div className="row row-cols-md-2 row-cols-1 grid-spacer-2">
                                         <div className="col">
                                             <ul className="check-list">
-                                                <li>Platform Strategy & Planning</li>
+                                                <li>Social Media Strategy & Planning</li>
                                                 <li>Creative Content Production</li>
-                                                <li>Paid Ads Management</li>
-                                                <li>Community engagement</li>
+                                                <li>Meta Ads Management</li>
+                                                <li>LinkedIn Ads Management</li>
+                                                <li>email Marketing</li>
+                                                <li>WhatsApp Marketing</li>
+                                                <li>Audience & Community Engagement</li>
+                                                <li>Performance Reporting & Analytics</li>
+                                                <li>Campaign Creative & Testing</li>
+                                                <li>Social Listening & Trend Analysis</li>
                                             </ul>
                                         </div>
                                         <div className="col">
@@ -92,9 +99,9 @@ const SingleServiceSection = () => {
                                     </div>
                                 </div>
 
-                                <h4>Why Choose Marko for Social Media Marketing?</h4>
+                                <h4>Why Choose Dark Metrix for Social Media Marketing?</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mollis ac odio et efficitur. Proin velit neque, sollicitudin nec purus eu, suscipit feugiat tellus.
+                                    We go beyond posting content. Every social media strategy is built around your audience, business goals and performance data to create measurable impact.
                                 </p>
 
                                 <div className="row row-cols-2">
@@ -103,15 +110,15 @@ const SingleServiceSection = () => {
                                             <div className="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
                                                 <i className="fa-regular fa-2x fa-circle-check accent-color"></i>
                                                 <div className="d-flex flex-column gspace-0">
-                                                    <h5>Result-Driven Campaigns</h5>
-                                                    <p>Focused on reach, engagement, and ROI</p>
+                                                    <h5>Intent-Driven Strategy</h5>
+                                                    <p>Built around your audience and business goals.</p>
                                                 </div>
                                             </div>
                                             <div className="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
                                                 <i className="fa-regular fa-2x fa-circle-check accent-color"></i>
                                                 <div className="d-flex flex-column gspace-0">
-                                                    <h5>Dedicated Team</h5>
-                                                    <p>Experts in every platform you use</p>
+                                                    <h5>Creative That Connects</h5>
+                                                    <p>Content designed to earn attention and action.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -121,15 +128,15 @@ const SingleServiceSection = () => {
                                             <div className="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
                                                 <i className="fa-regular fa-2x fa-circle-check accent-color"></i>
                                                 <div className="d-flex flex-column gspace-0">
-                                                    <h5>Tailored strategies</h5>
-                                                    <p>No one-size-fits-all, we build for your brand</p>
+                                                    <h5>Performance Focused</h5>
+                                                    <p>Campaigns optimized for leads and conversions.</p>
                                                 </div>
                                             </div>
                                             <div className="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
                                                 <i className="fa-regular fa-2x fa-circle-check accent-color"></i>
                                                 <div className="d-flex flex-column gspace-0">
-                                                    <h5>Analytics & insights</h5>
-                                                    <p>Make smart decision with real data</p>
+                                                    <h5>Data-Led Decisions</h5>
+                                                    <p>Clear insights guide every optimization.</p>
                                                 </div>
                                             </div>
                                         </div>

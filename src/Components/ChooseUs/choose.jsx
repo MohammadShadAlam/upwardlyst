@@ -28,10 +28,10 @@ function ChooseUsSection(){
                                     <div className="d-flex flex-column gspace-2">
                                         <div className="sub-heading">
                                             <i className="fa-regular fa-circle-dot"></i>
-                                            <span>Why Upwardlyst?</span>
+                                            <span>Why Dark Metrix?</span>
                                         </div>
-                                        <h2 className="title-heading">Less Guesswork. More Intent.</h2>
-                                        <p className="mb-0">We build around what your customers are actually searching for, asking and trying to accomplish..</p>
+                                        <h2 className="title-heading">Your Growth Is the Metric That Matters</h2>
+                                        <p className="mb-0">Digital marketing shouldn't end with impressions and clicks. At Dark Metrix, we connect strategy, creativity and performance to turn customer attention into measurable business growth.</p>
                                     </div>
                                 </AnimateOnScroll>
                                 <div className="image-container">
@@ -44,7 +44,7 @@ function ChooseUsSection(){
                                                 <AnimateOnScroll animation="fadeInUp" speed="normal">
 
                                                     <div className="card card-chooseus-cta">
-                                                        <h5>Partner with Marko & take your brand to the next level.</h5>
+                                                        <h5>Turn Digital Opportunities Into Customers.</h5>
                                                         <div className="link-wrapper">
                                                             <a href="./contact">Let's Talk Strategy</a>
                                                             <i className="fa-solid fa-circle-arrow-right"></i>

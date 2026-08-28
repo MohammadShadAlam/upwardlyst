@@ -13,9 +13,9 @@ const Footer = () => {
                                     <div className="logo-container-footer">
                                     <img src="/assets/images/upwardlyst logo-dark-theme2.png" alt="Logo" className="site-logo img-fluid" />
                                     </div>
-                                    <h4>Driving Digital Growth with Innovation & Strategy</h4>
+                                    <h4>Turning Digital Intent Into Growth</h4>
                                     <p>
-                                    Lorem ipsum dolor si consectetur adipiscing elit ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo.
+                                    Dark Metrix helps businesses grow through SEO, performance marketing, paid advertising, social media and conversion-focused digital experiences.
                                     </p>
                                 </div>
                             </div>
@@ -26,7 +26,7 @@ const Footer = () => {
                                     <ul className="footer-list">
                                         <li><a href="/">Home</a></li>
                                         <li><a href="/about">About Us</a></li>
-                                        <li><a href="/service">Service</a></li>
+                                        <li><a href="/service">Services</a></li>
                                         <li><a href="/case_studies">Case Studies</a></li>
                                         <li><a href="/blog">Blog</a></li>
                                         <li><a href="/contact">Contact Us</a></li>
@@ -41,8 +41,9 @@ const Footer = () => {
                                         <li><a href="/single_services">SEO</a></li>
                                         <li><a href="/single_services">Content Marketing</a></li>
                                         <li><a href="/single_services">PPC Advertising</a></li>
-                                        <li><a href="/single_services">Performance Marekting</a></li>
+                                        <li><a href="/single_services">Performance Marketing</a></li>
                                         <li><a href="/single_services">WhatsApp Marketing</a></li>
+                                        <li><a href="/single_services">LinkedIn Marketing</a></li>
                                         <li><a href="/single_services">Email Marketing</a></li>
                                         <li><a href="/single_services">Social Media Marketing</a></li>
                                         <li><a href="/single_services">Web & App Development</a></li>
@@ -56,7 +57,7 @@ const Footer = () => {
                                 <div className="footer-contact-container">
                                     <h5>Contact Info</h5>
                                     <ul className="contact-list">
-                                        <li>upwardlyst@gmail.com</li>
+                                        <li>darkmetrix@gmail.com</li>
                                         <li>+91 9920726697</li>
                                         <li>JTC, Frazer Road, Patna</li>
                                     </ul>
@@ -93,7 +94,7 @@ const Footer = () => {
                     </div>
 
                     <div className="copyright-container">
-                        <span className="copyright">© 2025 Marko. Fox Creation All Rights Reserved.</span>
+                        <span className="copyright">© 2026 Dark Metrix. Fox Creation All Rights Reserved.</span>
                         <div className="d-flex flex-row gspace-2">
                             <a href="#" className="legal-link">Terms of Service</a>
                             <a href="#" className="legal-link">Privacy Policy</a>

@@ -16,7 +16,7 @@ function AboutPage(){
     return(
         <>
             <HeadTitle title="About - Marko - Digital Marketing Agency"/>
-            <BannerInnerSection title="About Marko" currentPage="About Us" />
+            <BannerInnerSection title="About Dark Metrix" currentPage="About Us" />
             <AboutSection />
             <PartnershipSection />
             <ChooseUsAboutSection />

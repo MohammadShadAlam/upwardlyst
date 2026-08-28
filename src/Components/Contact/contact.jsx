@@ -11,11 +11,11 @@ const ContactSection = () => {
                         <div className="card contact-title">
                             <div className="sub-heading">
                                 <i className="fa-regular fa-circle-dot"></i>
-                                <span>Reach out to us</span>
+                                <span>Let's Talk Growth</span>
                             </div>
                             <h2 className="title-heading">Get in Touch</h2>
                             <p>
-                            Reach out to us for tailored digital solutions that drive results sollicitudin nec.
+                            Tell us what you want to grow. We'll help you find the right digital marketing strategy to reach more customers and drive measurable results.
                             </p>
                             <div className="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
                                 <div>
@@ -40,7 +40,7 @@ const ContactSection = () => {
                                 </div>
                                 <div className="d-grid">
                                     <span>Email Address</span>
-                                    <h5>hello@markoagency.com</h5>
+                                    <h5>darkmetrix@gmail.com</h5>
                                 </div>
                             </div>
                             <div className="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
@@ -53,7 +53,7 @@ const ContactSection = () => {
                                 </div>
                                 <div className="d-grid">
                                     <span>Office Address</span>
-                                    <h5>Marko HQ - 902 Digital Lane, San Francisco, CA 94110, USA</h5>
+                                    <h5>JTC, Frazer Road, Patna</h5>
                                 </div>
                             </div>
                         </div>

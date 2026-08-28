@@ -109,9 +109,17 @@ function BannerHomeSection() {
                     <div className="hero-container position-relative">
                         <div className="d-flex flex-column gspace-2">
                             <AnimateOnScroll animation="fadeInLeft" speed="normal">
-                                <h1 className="title-heading-banner">
-                                    Get Found. Get Chosen. Grow Faster.
-                                </h1>
+                                {/* Fade effect hatane ke liye style add kiya hai aur text change kiya hai */}
+                               <h1 
+    className="title-heading-banner" 
+    style={{ 
+        display: "inline-block",
+        WebkitMaskImage: 'linear-gradient(to right, rgba(0,0,0,1) 55%, rgba(0,0,0,0.15) 100%)', 
+        maskImage: 'linear-gradient(to right, rgba(0,0,0,1) 100%, rgba(0,0,0,0.15) 100%)' 
+    }}
+>
+   Make Sure Your Next Customer Finds you<br/> first.
+</h1>
                             </AnimateOnScroll>
                             <div className="banner-heading">
 
@@ -121,7 +129,7 @@ function BannerHomeSection() {
                                             <VideoButton videoUrl="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1" />
                                             <p>
                                                 Watch our video reviews and see how businesses achieve success
-                                                with Marko's digital marketing solutions.
+                                                with Dark Metrix digital marketing solutions.
                                             </p>
                                         </div>
                                     </div>
@@ -129,13 +137,16 @@ function BannerHomeSection() {
 
                                 <AnimateOnScroll animation="fadeInRight" speed="normal">
                                     <div className="banner-content order-lg-2 order-1">
+                                        {/* Yahan Sub-headline update kar di hai */}
                                         <p>
-                                            Upwardlyst is a digital marketing agency that helps businesses attract more customers through SEO, Google Ads, social media, content, branding and conversion-focused websites.
+                                           Dark Metrix is a digital marketing agency helping businesses get found, attract qualified customers and grow globally through SEO, performance marketing, paid ads, social media and conversion-focused web experiences.
+                                        
                                         </p>
                                         <div className="d-flex flex-md-row flex-column justify-content-center justify-content-lg-start align-self-center align-self-lg-start gspace-3">
                                             <a href="./about" className="btn btn-accent">
                                                 <div className="btn-title">
-                                                    <span>Get Started</span>
+                                                    {/* Yahan Button ka text update kar diya hai */}
+                                                    <span>Get Free Consultation</span>
                                                 </div>
                                                 <div className="icon-circle">
                                                     <i className="fa-solid fa-arrow-right"></i>
@@ -148,7 +159,7 @@ function BannerHomeSection() {
                                                     <img src="/assets/images/dummy-img-400x400.jpg" alt="Reviewer" className="avatar" />
                                                 </div>
                                                 <div className="detail">
-                                                    <span>2.7k Positive</span>
+                                                    <span>1k+ Positive</span>
                                                     <span>Reviews</span>
                                                 </div>
                                             </div>

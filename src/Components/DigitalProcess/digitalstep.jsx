@@ -18,9 +18,9 @@ const DigitalProcessSection = () => {
                                         <div className="d-flex flex-column gspace-2">
                                             <div className="sub-heading">
                                                 <i className="fa-regular fa-circle-dot"></i>
-                                                <span>How it Work</span>
+                                                <span>How it Works</span>
                                             </div>
-                                            <h2 className="title-heading">Simple Steps to Digital Success</h2>
+                                            <h2 className="title-heading">Four Simple Steps to Digital Growth</h2>
                                         </div>
                                     </AnimateOnScroll>
                                 </div>
@@ -28,8 +28,7 @@ const DigitalProcessSection = () => {
                                 <AnimateOnScroll animation="fadeInDown" speed="normal">
                                     <div className="d-flex flex-column gspace-2 justify-content-end h-100">
                                         <p>
-                                            Our streamlined process ensures your digital growth is seamless and effective. ipsum dolor sit amet,
-                                            consectetur adipiscing elit. In ex ligula, varius at rutrum et, finibus sed felis.
+                                            Our process connects customer intent, strategy, execution and performance data to help your business attract the right audience, convert more opportunities and grow consistently.
                                         </p>
                                         <div className="link-wrapper">
                                             <a href="./contact">Get Started Now</a>

@@ -16,14 +16,13 @@ const PartnershipSection = () => {
                         <div className="row row-cols-lg-2 row-cols-1 align-items-center px-5 position-relative z-2">
                             <div className="col">
                                 <div className="d-flex flex-column justify-content-start pe-lg-3 pe-0">
-                                    <h3 className="title-heading">Powering Success for Top Brands</h3>
+                                    <h3 className="title-heading">Trusted by Ambitious Brands</h3>
                                 </div>
                             </div>
                             <div className="col">
                                 <div className="d-flex flex-column ps-lg-3 ps-0">
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex ligula, varius at rutrum et, finibus sed felis. 
-                                        Quisque eget tincidunt lectus. Sed quis diam sed neque mattis feugiat.
+                                       We partner with businesses to improve digital visibility, reach the right customers and turn marketing opportunities into measurable, sustainable growth.
                                     </p>
                                 </div>
                             </div>

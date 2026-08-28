@@ -20,7 +20,7 @@ function ServiceSection(){
 
                             <AnimateOnScroll animation="fadeInDown" speed="normal">
                                 <h2 className="title-heading heading-container heading-container-medium">
-                                    Digital Solutions That Drive Real Results
+                                    Digital Marketing Built to Drive Real Growth.
                                 </h2>
                             </AnimateOnScroll>
                         </div>
@@ -41,7 +41,7 @@ function ServiceSection(){
                         </div>
                         <div className="service-link-footer">
                             <p>
-                                Need a custom solution? Let&apos;s create a strategy tailored for your business.
+                                Need a custom solution? Let&apos; build a digital strategy around your business goals.
                                 <a href="./contact"> Get a Free Strategy Call</a>
                             </p>
                         </div>

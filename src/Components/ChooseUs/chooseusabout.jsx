@@ -29,10 +29,10 @@ function ChooseUsAboutSection(){
                                     <div className="d-flex flex-column gspace-2">
                                         <div className="sub-heading">
                                             <i className="fa-regular fa-circle-dot"></i>
-                                            <span>Our Core Values</span>
+                                            <span>Our Approach</span>
                                         </div>
-                                        <h2 className="title-heading">The Principles That Define Us</h2>
-                                        <p className="mb-0">In the fast-paced digital world, choosing the right marketing partner makes all the difference. At Marko, we don’t just create campaigns—we craft strategies that deliver measurable success.</p>
+                                        <h2 className="title-heading">We Start With Your Customer</h2>
+                                        <p className="mb-0">Before choosing channels, running ads or chasing rankings, we understand who your customers are, what they're searching for and what influences their decisions.That insight shapes everything — from SEO and content to paid campaigns, creative and conversion-focused digital experiences.</p>
                                     </div>
                                 </AnimateOnScroll>
                                 <div className="image-container">
@@ -44,7 +44,7 @@ function ChooseUsAboutSection(){
                                             <div className="card-chooseus-cta-wrapper">
                                                 <AnimateOnScroll animation="fadeInUp" speed="normal">
                                                     <div className="card card-chooseus-cta">
-                                                        <h5>Partner with Marko & take your brand to the next level.</h5>
+                                                        <h5>Turn Digital Opportunities Into Customers.</h5>
                                                         <div className="link-wrapper">
                                                             <a href="./contact">Let's Talk Strategy</a>
                                                             <i className="fa-solid fa-circle-arrow-right"></i>

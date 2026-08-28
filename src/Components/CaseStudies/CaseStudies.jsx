@@ -18,14 +18,14 @@ const CaseStudiesSection = ({ noPadding }) => {
                                             <i className="fa-regular fa-circle-dot"></i>
                                             <span>Case Studies</span>
                                         </div>
-                                        <h2 className="title-heading">See How We Help Businesses Thrive</h2>
+                                        <h2 className="title-heading">Digital Marketing that Delivers </h2>
                                     </div>
                                 </AnimateOnScroll>
                             </div>
                             <div className="col">
                                 <AnimateOnScroll animation="fadeInRight" speed="normal">
                                     <div className="d-flex flex-column h-100 justify-content-end gspace-2">
-                                        <p>We don't just talk about results—we deliver them. Here are some of our most impactful case studies showcasing how our digital marketing strategies drive success.</p>
+                                        <p>We turn business challenges into growth opportunities. Explore how our SEO, paid media, content and digital strategies help businesses achieve meaningful, measurable results.</p>
                                         <div className="link-wrapper">
                                             <a href="./case_studies">More Case Studies</a>
                                             <i className="fa-solid fa-circle-arrow-right"></i>

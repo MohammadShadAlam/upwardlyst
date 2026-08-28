@@ -25,7 +25,7 @@ const TestimonialSection = () => {
                                                     <img src="/assets/images/dummy-img-400x400.jpg" alt="Testimonial Reviewer" className="avatar" />
                                                 </div>
                                                 <div className="detail">
-                                                    <h6>2.7k Positive</h6>
+                                                    <h6>1k+ Positive</h6>
                                                     <h6>Reviews</h6>
                                                 </div>
                                             </div>
@@ -75,10 +75,10 @@ const TestimonialSection = () => {
                                     <div className="card-testimonial-header-title">
                                         <div className="sub-heading">
                                             <i className="fa-regular fa-circle-dot"></i>
-                                            <span>What Our Client Says</span>
+                                            <span>What Our Clients Say</span>
                                         </div>
-                                        <h2 className="title-heading">Hear from Our Satisfied Clients, Real Success Stories</h2>
-                                        <p>Discover how businesses like yours achieved outstanding growth with Marko's expert digital marketing solutions.</p>
+                                        <h2 className="title-heading">Real Businesses. Real Partnerships. Real Growth Stories.</h2>
+                                        <p>Discover how businesses work with Dark Metrix to improve online visibility, reach more customers and turn digital marketing into measurable growth.</p>
                                     </div>
                                 </div>
                             </AnimateOnScroll>

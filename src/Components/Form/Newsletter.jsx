@@ -50,8 +50,7 @@ function NewsletterSection() {
                                 <div className="d-flex flex-column gspace-2">
                                     <h3 className="title-heading">Stay Ahead in Digital Marketing</h3>
                                     <p>
-                                        Get exclusive insights, trends, and strategies delivered straight to your inbox.
-                                        Subscribe now!
+                                        Get practical SEO, paid media and growth strategies delivered straight to your inbox. No noise, just useful insights!
                                     </p>
                                 </div>
                             </AnimateOnScroll>

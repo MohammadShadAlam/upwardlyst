@@ -48,22 +48,23 @@ function ExpertiseSection(){
 
                             <AnimateOnScroll animation="fadeInRight" speed="normal">
                                 <h2 className="title-heading">
-                                    Data Driven Strategies, Measurable Results
+                                    Turning Customer Intent Into Growth.
                                 </h2>
                             </AnimateOnScroll>
-                            <p>
-                               At Digital Strategy Growth, we help businesses grow with smart, results-driven digital marketing solutions. From SEO and social media marketing to paid advertising, website development, and content strategy, our team creates customized campaigns that increase online visibility, attract qualified leads, and drive measurable business growth. We combine creativity, data, and the latest marketing trends to deliver strategies that help brands stand out, connect with their audience, and achieve long-term success in the digital world.
+                            <p>At Dark Metrix, we connect SEO, performance marketing, paid media and digital experiences to help businesses reach high-intent customers, generate qualified leads and grow consistently.
+                              
+
                             </p>
                             <div className="d-flex flex-column flex-md-row gspace-2">
                                 <div className="expertise-list">
                                     <h5>What We Do Best</h5>
                                     <ul className="check-list">
                                         <li><a href="./single_services">Performance Marketing</a></li>
-                                        <li><a href="./single_services">Social Media Growth</a></li>
+                                        <li><a href="./single_services">Search Engine Optimization</a></li>
+                                        <li><a href="./single_services">Paid Media & PPC</a></li>
+                                        <li><a href="./single_services">Social Media Marketing</a></li>
                                         <li><a href="./single_services">Content Marketing</a></li>
-                                        <li><a href="./single_services">PPC & Paid Ads</a></li>
-                                        <li><a href="./single_services">Brand Strategy</a></li>
-                                        <li><a href="./single_services">Conversion Optimization</a></li>
+                                        <li><a href="./single_services">Web & App Development</a></li>
                                     </ul>
                                 </div>
 
@@ -72,16 +73,16 @@ function ExpertiseSection(){
                                         <div className="d-flex flex-row gspace-2 align-items-center">
                                             <div className="d-flex flex-row align-items-center">
                                             <CounterOnScroll
-                                                target={21}
+                                                target={10}
                                                 suffix="+"
                                                 counterClassName="counter"
                                                 suffixClassName="counter-detail"
                                             />
                                             </div>
-                                            <h6>Years of Experience on Digital Marketing Services</h6>
+                                            <h6>Years of Experience in Digital Marketing Services</h6>
                                         </div>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elit in ex ligula varius at rutrum et finibus sed felis qisque.
+                                            A decade of experience helping businesses grow through digital marketing and web & app development.
                                         </p>
                                     </div>
                                 </AnimateOnScroll>

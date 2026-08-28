@@ -26,7 +26,7 @@ function AboutSection(){
                                                 >
                                                 <div className="d-flex flex-row align-items-center">
                                                     <span className="counter" data-target="21"></span>
-                                                    <span className="counter-detail">+</span>
+                                                    <span className="counter-detail">10+</span>
                                                 </div>
                                                 <h6>Years of Experience on Digital Marketing Services</h6>
                                             </div>
@@ -50,17 +50,14 @@ function AboutSection(){
                             </AnimateOnScroll>
 
                             <AnimateOnScroll animation="fadeInRight" speed="normal">
-                                <h2 className="title-heading">Who We Are & What Drives Us</h2>
+                                <h2 className="title-heading">Built Around Intent, Driven by Growth.</h2>
                             </AnimateOnScroll>
 
                             <p>
-                                At Marko, we specialize in crafting innovative digital marketing strategies
-                                that drive real business growth. Our about ensures your brand stays ahead
-                                in the competitive digital landscape.
+                               Dark Metrix is a digital marketing agency helping businesses turn customer intent into measurable growth through SEO, performance marketing, paid media, content and digital experiences.
                             </p>
                             <p>
-                                Get to know the passionate team behind the strategies, the values that
-                                guide us, and the mission that fuels our growth.
+                              We combine global experience, creative thinking and performance data to help brands get found, reach the right customers and grow with confidence.
                             </p>
 
                             <div className="d-flex flex-column flex-md-row gspace-1 gspace-md-5">

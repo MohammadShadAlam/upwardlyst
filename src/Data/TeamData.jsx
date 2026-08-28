@@ -1,8 +1,8 @@
 export const teamData = [
 	{
 		id: 1,
-		name: "Jordan Lee",
-		title: "Head of Creative",
+		name: "Mohammad Simab",
+		title: "Founder, Dark Metrix",
 		image: "/assets/images/dummy-img-600x800.jpg",
 		socials: {
 		facebook: "https://facebook.com",
@@ -12,8 +12,8 @@ export const teamData = [
 	},
 	{
 		id: 2,
-		name: "Chloe Tan",
-		title: "Senior SEO Specialist",
+		name: "Mohammad Danish",
+		title: "Co-Founder, Dark Metrix",
 		image: "/assets/images/dummy-img-600x800.jpg",
 		socials: {
 		facebook: "https://facebook.com",

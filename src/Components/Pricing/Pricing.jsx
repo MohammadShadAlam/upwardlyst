@@ -10,10 +10,10 @@ function PricingPlanSection(){
                         <div className="d-flex flex-column gspace-2">
                             <div className="sub-heading align-self-center">
                                 <i className="fa-regular fa-circle-dot"></i>
-                                <span>Our Core Services</span>
+                                <span>Pricing</span>
                             </div>
                             <h2 className="title-heading heading-container heading-container-short">
-                                Flexible Pricing Plans for Every Business
+                                Flexible Marketing Plans Built Around Your Growth
                             </h2>
                         </div>
                     </AnimateOnScroll>
@@ -38,7 +38,7 @@ function PricingPlanSection(){
                                         <h4>Starter</h4>
                                         <p>Perfect for startups & small businesses</p>
                                         <div className="d-flex flex-row gspace-1 align-items-center h-100">
-                                            <h3>$99</h3>
+                                            <h3>$199</h3>
                                             <p>/Month</p>
                                         </div>
                                         <a href="#" className="btn btn-accent">
@@ -65,7 +65,7 @@ function PricingPlanSection(){
                                     <h4>Enterprise</h4>
                                     <p>Full scale marketing for maximum impact</p>
                                     <div className="d-flex flex-row gspace-1 align-items-center">
-                                        <h3>$399</h3>
+                                        <h3>$999+</h3>
                                         <p>/Month</p>
                                     </div>
                                     <a href="#" className="btn btn-accent">
@@ -108,18 +108,18 @@ function PricingPlanSection(){
                                 <AnimateOnScroll animation="fadeInRight" speed="normal">
                                     <div className="card pricing-highlight-box">
                                         <div className="d-flex flex-column gspace-2 w-100">
-                                            <h5>Your Growth, Our Priority!</h5>
+                                            <h5>Your Growth, Our Focus!</h5>
                                             <div className="d-flex flex-column gspace-2">
                                                 <div className="pricing-highlights">
-                                                    <a href="#">Data-Driven Digital Marketing</a>
+                                                    <a href="#">Intent-Driven Digital Marketing</a>
                                                     <i className="fa-solid fa-arrow-circle-right"></i>
                                                 </div>
                                                 <div className="pricing-highlights">
-                                                    <a href="#">Proven Strategies for Higher</a>
+                                                    <a href="#">Performance Focused on Conversion</a>
                                                     <i className="fa-solid fa-arrow-circle-right"></i>
                                                 </div>
                                                 <div className="pricing-highlights">
-                                                    <a href="#">Scalable Solution for Every Business</a>
+                                                    <a href="#">Scalable Strategies for Every Business</a>
                                                     <i className="fa-solid fa-arrow-circle-right"></i>
                                                 </div>
                                             </div>
@@ -133,7 +133,7 @@ function PricingPlanSection(){
                                         <h4>Growth</h4>
                                         <p>Best for growing businesses ready</p>
                                         <div className="d-flex flex-row gspace-1 align-items-center h-100">
-                                            <h3>$299</h3>
+                                            <h3>$499</h3>
                                             <p>/Month</p>
                                         </div>
                                         <a href="#" className="btn btn-accent">

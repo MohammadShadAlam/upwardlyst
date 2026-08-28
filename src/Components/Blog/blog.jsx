@@ -17,7 +17,7 @@ function BlogSection() {
                                         <i className="fa-regular fa-circle-dot"></i>
                                         <span>Insights & Trends</span>
                                     </div>
-                                    <h2 className="title-heading">Latest Digital Marketing Strategies & Tips</h2>
+                                    <h2 className="title-heading">Digital Marketing Insights Built for Business Growth</h2>
                                 </div>
                             </AnimateOnScroll>
                         </div>
@@ -26,9 +26,7 @@ function BlogSection() {
                                 <div
                                     className="d-flex flex-column gspace-2 justify-content-end h-100">
                                     <p>
-                                        Explore our latest blog articles covering industry trends,
-                                        expert insights, and actionable strategies to elevate your
-                                        digital marketing game.
+                                        Explore practical insights on Digital marketing designed to help your business attract and convert more customers.
                                     </p>
                                     <div className="link-wrapper">
                                         <a href="./blog">View All Articles</a>

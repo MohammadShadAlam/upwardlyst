@@ -1,9 +1,9 @@
 export const services = [
     {
         id: 1,
-        icon: "/assets/images/Icon-7.png",
-        title: "SEO      ",
-        content: "Our SEO services combine keyword research, search intent analysis, technical SEO, on-page SEO, local SEO and content strategy to improve your Google visibility and attract relevant organic traffic.",
+        icon: "/assets/images/digital-marketing-icons-F4LJ4W8.png",
+        title: "Performance Marketing",
+        content: "Turn advertising spend into measurable growth with data-driven campaigns focused on customer acquisition, conversions, sales and ROI.",
         speed: "slow",
         link: "single_services",
 
@@ -11,18 +11,18 @@ export const services = [
 
    {
         id: 2,
-        icon: "/assets/images/digital-marketing-icons-F4LJ4W8.png",
-        title: "Content Marketing",
-        content: "We create SEO content, website copy, blogs, campaign content and social content around the problems, questions and search intent that influence your customers' decisions.",
+        icon: "/assets/images/Icon-5.png",
+        title: "Search Engine Optimization",
+        content: "Improve Google rankings and attract high-intent organic traffic with technical SEO, local SEO, keyword strategy and search-optimized content.",
         speed: "normal",
         link: "single_services",
     },
 
 {
         id: 3,
-        icon: "/assets/images/Icon-8.png",
+        icon: "/assets/images/Icon-6.png",
         title: "PPC Advertising",
-        content: "Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.",
+        content: "Reach customers actively searching for your services with targeted PPC and Google Ads campaigns optimized for leads and conversions.",
         speed: "fast",
         link: "single_services",
     },
@@ -30,56 +30,31 @@ export const services = [
      {
         id: 4,
         icon: "/assets/images/Icon-7.png",
-        title: "Performance Marekting",
-        content: "We build and optimize Google Ads, PPC and performance marketing campaigns around high-intent audiences, conversions and measurable ROI — helping turn advertising spend into qualified leads and sales.",
+        title: "Social Media Marketing",
+        content: "Build visibility, engagement and demand with strategic social content and paid campaigns designed around your ideal customers.",
         speed: "slow",
         link: "single_services",
     },
 
     {
         id: 5,
-        icon: "/assets/images/Icon-7.png",
-        title: "WhatsApp Marketing",
-        content: "Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.",
+        icon: "/assets/images/Icon-8.png",
+        title: "Content Marketing",
+        content: "Create search-focused content that answers customer questions, builds authority and turns organic traffic into qualified business opportunities.",
         speed: "slow",
         link: "single_services",
     },
 
  {
         id: 6,
-        icon: "/assets/images/Icon-5.png",
-        title: "Email Marketing",
-        content: "Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.",
-        speed: "slow",
-        link: "single_services",
-    },
-
-
-  {
-        id: 7,
-        icon: "/assets/images/Icon-7.png",
-        title: "Social Media Marketing",
-        content: "We combine social media strategy, content creation, short-form video, Meta Ads and campaign creative to help your business reach the right audience, stay memorable and give people a reason to engage.",
-        speed: "slow",
-        link: "single_services",
-    },
-    
- {
-        id: 8,
         icon: "/assets/images/Icon-4.png",
         title: "Web & App Development",
-        content: "We design and develop fast, responsive, SEO-friendly and conversion-focused websites that make it easier for visitors to understand your value, trust your business and take action.",
-        speed: "fast",
-        link: "single_services",
-    },   
-
-    {
-        id: 9,
-        icon: "/assets/images/Icon-6.png",
-        title: "Branding & Design",
-        content: "We create brand identities, visual systems, campaign creatives and marketing communication that help businesses look credible, communicate clearly and stand apart.",
-        speed: "normal",
+        content: "Build fast, SEO-friendly websites and digital products designed to improve user experience, conversions and long-term business growth.",
+        speed: "slow",
         link: "single_services",
     },
+
+
+  
    
 ];

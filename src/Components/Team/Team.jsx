@@ -16,7 +16,7 @@ const TeamSection = () => {
                                     <span>Our Team</span>
                                 </div>
                                 <h2 className="title-heading">
-                                    Meet the Minds Behind Your Digital Success
+                                    Meet the Minds Behind Dark Metrix
                                 </h2>
                             </div>
                         </AnimateOnScroll>
