@@ -11,7 +11,7 @@ import BootstrapClient from "./BootstrapClient";
 import Providers from "./Providers";
 
 export const metadata = {
-    title: "Marko - Digital Marketing Agency",
+    title: "Dark Metrix - Digital Marketing Agency",
     icons: {
         icon: "/assets/images/favicon.ico",
     },
