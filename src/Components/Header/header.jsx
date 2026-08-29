@@ -58,10 +58,19 @@ return (
                             </Link>
                         </li>
 
+                        {/* 👇 Saare naye service routes yahan add kar diye hain taaki mobile/desktop par active state theek rahe 👇 */}
                         <li className="nav-item dropdown">
                             <a
                             className={`nav-link dropdown-toggle ${
-                                isDropdownActive(["/service", "/single_services"])
+                                isDropdownActive([
+                                    "/service", 
+                                    "/single_services", 
+                                    "/performance-marketing", 
+                                    "/seo", 
+                                    "/ppc-advertising", 
+                                    "/content-marketing", 
+                                    "/web-app-development"
+                                ])
                                 ? "active"
                                 : ""
                             }`}
@@ -73,24 +82,20 @@ return (
                             Services <i className="fa-solid fa-angle-down accent-color"></i>
                             </a>
                             <ul className="dropdown-menu">
-    <li><Link href="/performance-marketing" className="dropdown-item">Performance Marketing</Link></li>
-    <li><Link href="/seo" className="dropdown-item">Search Engine Optimization</Link></li>
-    <li><Link href="/ppc-advertising" className="dropdown-item">PPC Advertising</Link></li>
-    <li><Link href="/single_services" className="dropdown-item">Social Media Marketing</Link></li>
-    <li><Link href="/content-marketing" className="dropdown-item">Content Marketing</Link></li>
-    <li><Link href="/web-app-development" className="dropdown-item">Web & App Development</Link></li>
-</ul>
+                                <li><Link href="/performance-marketing" className="dropdown-item">Performance Marketing</Link></li>
+                                <li><Link href="/seo" className="dropdown-item">Search Engine Optimization</Link></li>
+                                <li><Link href="/ppc-advertising" className="dropdown-item">PPC Advertising</Link></li>
+                                <li><Link href="/single_services" className="dropdown-item">Social Media Marketing</Link></li>
+                                <li><Link href="/content-marketing" className="dropdown-item">Content Marketing</Link></li>
+                                <li><Link href="/web-app-development" className="dropdown-item">Web & App Development</Link></li>
+                            </ul>
                         </li>
 
-                        
-                        {/* Archive Dropdown */}
-                        
-                                <li>
-                                    <Link href="/blog" className={navClass("/blog")}>
-                                        Blog
-                                    </Link>
-                                </li>
-                                
+                        <li className="nav-item">
+                            <Link href="/blog" className={navClass("/blog")}>
+                                Blog
+                            </Link>
+                        </li>
 
                         <li className="nav-item">
                             <Link href="/contact" className={navClass("/contact")}>
