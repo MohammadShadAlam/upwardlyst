@@ -14,12 +14,11 @@ import DigitalProcessSection from "../../Components/DigitalProcess/digitalstep";
 import PricingPlanSection from "../../Components/Pricing/Pricing";
 import PartnershipSection from "../../Components/Partnership/Partnership";
 import NewsletterSection from "../../Components/Form/Newsletter";
-import BlogSection from "../../Components/Blog/blog";
 
 function HomePage(){
     return(
         <>
-            <HeadTitle title="Home - Marko - Digital Marketing Agency" />
+            <HeadTitle title="Home - Dark Metrix - Digital Marketing Agency" />
             <BannerHomeSection />
             <ExpertiseSection />
             <PartnershipSection />
@@ -32,7 +31,6 @@ function HomePage(){
             <DigitalProcessSection />
             <PricingPlanSection />
             <NewsletterSection />
-            <BlogSection />
         </>
     );
 }
