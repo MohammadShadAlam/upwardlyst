@@ -12,7 +12,7 @@ import PerformanceMarketingSection from "../../Components/Services/PerformanceMa
 function PerformanceMarketingPage(){
     return(
         <>
-            <HeadTitle title="Performance Marketing - Marko - Digital Marketing Agency" />
+            <HeadTitle title="Performance Marketing - Dark Metrix - Digital Marketing Agency" />
             <BannerInnerSection title="Performance Marketing" currentPage="Services Details" />
             
             {/* YAHAN COMPONENT CHANGE KIYA HAI */}

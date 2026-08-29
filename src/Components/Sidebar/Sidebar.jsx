@@ -77,7 +77,9 @@ function Sidebar() {
             </div>
             <ul className="menu">
                 <li><a href="/">Home</a></li>
-                <li><a href="about">About Us</a></li>
+                <li><a href="/about">About Us</a></li>
+                
+                {/* 👇 Yahan Services ke under saari 6 naye links add kar diye hain 👇 */}
                 <li className="sidebar-dropdown">
                     <div className="dropdown-header">
                         <a href="#">Services</a>
@@ -86,10 +88,15 @@ function Sidebar() {
                     </button>
                     </div>
                     <ul className="sidebar-dropdown-menu">
-                        <li><a href="service">Service</a></li>
-                        <li><a href="single_services">Service Details</a></li>
+                        <li><a href="/performance-marketing">Performance Marketing</a></li>
+                        <li><a href="/seo">Search Engine Optimization</a></li>
+                        <li><a href="/ppc-advertising">PPC Advertising</a></li>
+                        <li><a href="/single_services">Social Media Marketing</a></li>
+                        <li><a href="/content-marketing">Content Marketing</a></li>
+                        <li><a href="/web-app-development">Web & App Development</a></li>
                     </ul>
                 </li>
+
                 <li className="sidebar-dropdown">
                     <div className="dropdown-header">
                         <a href="#">Pages</a>
@@ -98,13 +105,13 @@ function Sidebar() {
                     </button>
                     </div>
                     <ul className="sidebar-dropdown-menu">
-                        <li><a href="case_studies">Case Studies</a></li>
-                        <li><a href="team">Our Team</a></li>
-                        <li><a href="partnership">Partnership</a></li>
-                        <li><a href="pricing">Pricing Plan</a></li>
-                        <li><a href="testimonial">Testimonial</a></li>
-                        <li><a href="faq">FAQs</a></li>
-                        <li><a href="404_page">Error 404</a></li>
+                        <li><a href="/case_studies">Case Studies</a></li>
+                        <li><a href="/team">Our Team</a></li>
+                        <li><a href="/partnership">Partnership</a></li>
+                        <li><a href="/pricing">Pricing Plan</a></li>
+                        <li><a href="/testimonial">Testimonial</a></li>
+                        <li><a href="/faq">FAQs</a></li>
+                        <li><a href="/404_page">Error 404</a></li>
                     </ul>
                 </li>
                 <li className="sidebar-dropdown">
@@ -115,15 +122,15 @@ function Sidebar() {
                     </button>
                     </div>
                     <ul className="sidebar-dropdown-menu">
-                        <li><a href="blog">Blog</a></li>
-                        <li><a href="single_post">Single Post</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/single_post">Single Post</a></li>
                     </ul>
                 </li>
-                <li className="below-dropdown"><a href="contact">Contact Us</a></li>
+                <li className="below-dropdown"><a href="/contact">Contact Us</a></li>
             </ul>
         </div>
         </div>
     );
-    }
+}
 
 export default Sidebar;

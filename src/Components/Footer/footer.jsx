@@ -38,15 +38,15 @@ const Footer = () => {
                                 <div className="footer-services-container">
                                     <h5>Services</h5>
                                     <ul className="footer-list">
-                                        <li><a href="/single_services">SEO</a></li>
-                                        <li><a href="/single_services">Content Marketing</a></li>
-                                        <li><a href="/single_services">PPC Advertising</a></li>
-                                        <li><a href="/single_services">Performance Marketing</a></li>
+                                        <li><a href="/seo">SEO</a></li>
+                                        <li><a href="/content-marketing">Content Marketing</a></li>
+                                        <li><a href="/ppc-advertising">PPC Advertising</a></li>
+                                        <li><a href="/performance-marketing">Performance Marketing</a></li>
                                         <li><a href="/single_services">WhatsApp Marketing</a></li>
                                         <li><a href="/single_services">LinkedIn Marketing</a></li>
                                         <li><a href="/single_services">Email Marketing</a></li>
                                         <li><a href="/single_services">Social Media Marketing</a></li>
-                                        <li><a href="/single_services">Web & App Development</a></li>
+                                        <li><a href="/web-app-developmen">Web & App Development</a></li>
                                         <li><a href="/single_services">Branding & Design</a></li>
                                         
                                     </ul>

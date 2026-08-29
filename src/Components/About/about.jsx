@@ -63,17 +63,16 @@ function AboutSection(){
                             <div className="d-flex flex-column flex-md-row gspace-1 gspace-md-5">
                                 <div className="about-list">
                                     <ul className="check-list">
-                                        <li><a href="./single_services">PPC & Paid Ads</a></li>
-                                        <li><a href="./single_services">Brand Strategy</a></li>
-                                        <li><a href="./single_services">Conversion Optimization</a></li>
-                                    </ul>
-                                </div>
-
-                                <div className="about-list">
-                                    <ul className="check-list">
-                                        <li><a href="./single_services">Performance Marketing</a></li>
-                                        <li><a href="./single_services">Social Media Growth</a></li>
-                                        <li><a href="./single_services">Content Marketing</a></li>
+                                        <li><a href="./performance-marketing">Performance Marketing</a></li>
+                                        <li><a href="./seo">Search Engine Optimization</a></li>
+                                        <li><a href="./ppc-advertising">PPC Advertising</a></li>
+                                      </ul>
+                                    </div>
+                                    <div className="about-list">
+                                      <ul className="check-list">
+                                        <li><a href="./single_services">Social Media Marketing</a></li>
+                                        <li><a href="./content-marketing">Content Marketing</a></li>
+                                        <li><a href="./web-app-development">Web & App Development</a></li>
                                     </ul>
                                 </div>
                             </div>

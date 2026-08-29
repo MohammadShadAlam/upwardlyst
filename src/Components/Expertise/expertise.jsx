@@ -59,12 +59,12 @@ function ExpertiseSection(){
                                 <div className="expertise-list">
                                     <h5>What We Do Best</h5>
                                     <ul className="check-list">
-                                        <li><a href="./single_services">Performance Marketing</a></li>
-                                        <li><a href="./single_services">Search Engine Optimization</a></li>
-                                        <li><a href="./single_services">Paid Media & PPC</a></li>
+                                        <li><a href="./performance-marketing">Performance Marketing</a></li>
+                                        <li><a href="./seo">Search Engine Optimization</a></li>
+                                        <li><a href="./ppc-advertising">PPC Advertising</a></li>
                                         <li><a href="./single_services">Social Media Marketing</a></li>
-                                        <li><a href="./single_services">Content Marketing</a></li>
-                                        <li><a href="./single_services">Web & App Development</a></li>
+                                        <li><a href="./content-marketing">Content Marketing</a></li>
+                                        <li><a href="./web-app-development">Web & App Development</a></li>
                                     </ul>
                                 </div>
 
