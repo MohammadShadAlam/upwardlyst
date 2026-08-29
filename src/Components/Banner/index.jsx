@@ -54,7 +54,7 @@ function BannerHomeSection() {
     return (
         <div className="section-banner">
             
-            {/* 👇 YE HAI WO MAGIC CSS TRICK 👇 */}
+            {/* 👇 YE HAI WO MAGIC CSS TRICK (FIXED FOR ENTIRE PAGE) 👇 */}
             <style dangerouslySetInnerHTML={{__html: `
                 .banner-video-container {
                     position: relative;
@@ -70,22 +70,20 @@ function BannerHomeSection() {
                     top: 50% !important;
                     left: 50% !important;
                     transform: translate(-50%, -50%) !important;
-                    
-                    /* Ye 3 lines ensure karengi ki video hamesha text ke barabar bada ho jaye */
                     width: auto !important;
                     height: auto !important;
                     min-width: 100% !important;
                     min-height: 100% !important;
                     aspect-ratio: 16 / 9 !important;
-                    
                     z-index: 0 !important;
                     pointer-events: none !important;
                 }
-                .hero-container {
+                /* 👇 FIX: Ab ye sirf Banner wale container pe apply hoga, pure page par nahi 👇 */
+                .banner-video-container .hero-container {
                     position: relative;
                     z-index: 2;
                     width: 100%;
-                    padding: 50px 0; /* Upar-neeche thodi space dene ke liye */
+                    padding: 50px 0; 
                 }
             `}} />
 
