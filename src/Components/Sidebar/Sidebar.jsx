@@ -77,9 +77,9 @@ function Sidebar() {
             </div>
             <ul className="menu">
                 <li><a href="/">Home</a></li>
-                <li><a href="/about">About Us</a></li>
+                {/* Desktop ke hisaab se About Us ko About kar diya hai */}
+                <li><a href="/about">About</a></li>
                 
-                {/* 👇 Yahan Services ke under saari 6 naye links add kar diye hain 👇 */}
                 <li className="sidebar-dropdown">
                     <div className="dropdown-header">
                         <a href="#">Services</a>
@@ -97,35 +97,9 @@ function Sidebar() {
                     </ul>
                 </li>
 
-                <li className="sidebar-dropdown">
-                    <div className="dropdown-header">
-                        <a href="#">Pages</a>
-                    <button className="sidebar-dropdown-btn">
-                        <i className="fa-solid fa-angle-down"></i>
-                    </button>
-                    </div>
-                    <ul className="sidebar-dropdown-menu">
-                        <li><a href="/case_studies">Case Studies</a></li>
-                        <li><a href="/team">Our Team</a></li>
-                        <li><a href="/partnership">Partnership</a></li>
-                        <li><a href="/pricing">Pricing Plan</a></li>
-                        <li><a href="/testimonial">Testimonial</a></li>
-                        <li><a href="/faq">FAQs</a></li>
-                        <li><a href="/404_page">Error 404</a></li>
-                    </ul>
-                </li>
-                <li className="sidebar-dropdown">
-                    <div className="dropdown-header">
-                        <a href="#">Archive</a>
-                    <button className="sidebar-dropdown-btn">
-                        <i className="fa-solid fa-angle-down"></i>
-                    </button>
-                    </div>
-                    <ul className="sidebar-dropdown-menu">
-                        <li><a href="/blog">Blog</a></li>
-                        <li><a href="/single_post">Single Post</a></li>
-                    </ul>
-                </li>
+                {/* Yahan se Pages aur Archive hata kar sirf Blog add kar diya hai */}
+                <li><a href="/blog">Blog</a></li>
+                
                 <li className="below-dropdown"><a href="/contact">Contact Us</a></li>
             </ul>
         </div>
