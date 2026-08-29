@@ -73,17 +73,13 @@ return (
                             Services <i className="fa-solid fa-angle-down accent-color"></i>
                             </a>
                             <ul className="dropdown-menu">
-                                <li>
-                                    <Link href="/service" className={navClass("/service", "dropdown-item")}>
-                                        Service
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/single_services" className={navClass("/single_services", "dropdown-item")}>
-                                        Single Services
-                                    </Link>
-                                </li>
-                            </ul>
+    <li><Link href="/performance-marketing" className="dropdown-item">Performance Marketing</Link></li>
+    <li><Link href="/seo" className="dropdown-item">Search Engine Optimization</Link></li>
+    <li><Link href="/ppc-advertising" className="dropdown-item">PPC Advertising</Link></li>
+    <li><Link href="/single_services" className="dropdown-item">Social Media Marketing</Link></li>
+    <li><Link href="/content-marketing" className="dropdown-item">Content Marketing</Link></li>
+    <li><Link href="/web-app-development" className="dropdown-item">Web & App Development</Link></li>
+</ul>
                         </li>
 
                         

@@ -535,6 +535,32 @@
     .legal-link{
         font-size: var(--font-size-xs);
     }
+    /* 👇 100% WORKING VIDEO BANNER FIX 👇 */
+    .banner-video-container {
+        position: relative !important;
+        overflow: hidden !important;
+        width: 100% !important;
+        min-height: 100vh !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .banner-video-container iframe,
+    #banner-video-background {
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        z-index: 0 !important;
+        min-width: 100vw !important;
+        pointer-events: none !important;
+    }
+
+    .hero-container {
+        position: relative !important;
+        z-index: 2 !important;
+        width: 100% !important;
+    }
 }
 
 /* 03. Mobile Spacing (≥768px) */
@@ -809,4 +835,4 @@
     .grid-spacer-y-md-5 { 
         --bs-gutter-y: 50px; 
     }
-}
+} 

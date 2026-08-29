@@ -5,9 +5,7 @@ import VideoButton from "../Video/VideoButton";
 import AnimateOnScroll from "../Hooks/AnimateOnScroll";
 
 function BannerHomeSection() {
-
     const playerRef = useRef(null);
-    const videoContainerRef = useRef(null);
 
     useEffect(() => {
         if (!window.YT) {
@@ -16,110 +14,97 @@ function BannerHomeSection() {
             const firstScriptTag = document.getElementsByTagName("script")[0];
             firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
         } else {
-            onYouTubeIframeAPIReady();
+            if (window.onYouTubeIframeAPIReady) window.onYouTubeIframeAPIReady();
         }
 
         window.onYouTubeIframeAPIReady = () => {
             playerRef.current = new window.YT.Player("banner-video-background", {
                 videoId: "P68V3iH4TeE",
                 playerVars: {
-                autoplay: 1,
-                controls: 0,
-                mute: 1,
-                loop: 1,
-                playlist: "P68V3iH4TeE",
-                showinfo: 0,
-                rel: 0,
-                enablejsapi: 1,
-                disablekb: 1,
-                modestbranding: 1,
-                iv_load_policy: 3,
-                'origin': window.location.origin
+                    autoplay: 1,
+                    controls: 0,
+                    mute: 1,
+                    loop: 1,
+                    playlist: "P68V3iH4TeE",
+                    showinfo: 0,
+                    rel: 0,
+                    enablejsapi: 1,
+                    disablekb: 1,
+                    modestbranding: 1,
+                    iv_load_policy: 3,
+                    origin: window.location.origin
                 },
                 events: {
-                onReady: onPlayerReady,
-                onStateChange: onPlayerStateChange
+                    onReady: (event) => {
+                        event.target.playVideo();
+                    },
+                    onStateChange: (event) => {
+                        if (event.data === window.YT.PlayerState.ENDED) {
+                            playerRef.current.playVideo();
+                        }
+                        if (event.data === window.YT.PlayerState.PLAYING) {
+                            playerRef.current.setPlaybackQuality("hd1080");
+                        }
+                    }
                 }
             });
-        };
-
-        function onPlayerReady(event) {
-            event.target.playVideo();
-            setYoutubeSize();
-            window.addEventListener("resize", setYoutubeSize);
-        }
-
-        function onPlayerStateChange(event) {
-            if (event.data === window.YT.PlayerState.ENDED) {
-                playerRef.current.playVideo();
-            }
-            if (event.data === window.YT.PlayerState.PLAYING) {
-                playerRef.current.setPlaybackQuality("hd1080");
-            }
-        }
-
-        function setYoutubeSize() {
-            const container = videoContainerRef.current;
-            if (!container || !playerRef.current?.getIframe) return;
-
-            const containerWidth = container.offsetWidth;
-            const containerHeight = container.offsetHeight;
-            const aspectRatio = 16 / 9;
-
-            let newWidth, newHeight;
-            if (containerWidth / containerHeight > aspectRatio) {
-                newWidth = containerWidth;
-                newHeight = containerWidth / aspectRatio;
-            } else {
-                newWidth = containerHeight * aspectRatio;
-                newHeight = containerHeight;
-            }
-
-            const iframe = playerRef.current.getIframe();
-            iframe.style.width = `${newWidth}px`;
-            iframe.style.height = `${newHeight}px`;
-        }
-
-        function handleYouTubeErrors() {
-            window.addEventListener('message', function(event) {
-                if (event.origin !== 'https://www.youtube.com') return;
-            
-                try {
-                    var data = JSON.parse(event.data);
-                   
-                } catch (e) {
-         
-                }
-            });
-        }
-
-        return () => {
-            window.removeEventListener("resize", setYoutubeSize);
         };
     }, []);
 
     return (
         <div className="section-banner">
+            
+            {/* 👇 YE HAI WO MAGIC CSS TRICK 👇 */}
+            <style dangerouslySetInnerHTML={{__html: `
+                .banner-video-container {
+                    position: relative;
+                    width: 100%;
+                    min-height: 100vh;
+                    overflow: hidden;
+                    display: flex;
+                    align-items: center;
+                    background-color: #000;
+                }
+                #banner-video-background {
+                    position: absolute !important;
+                    top: 50% !important;
+                    left: 50% !important;
+                    transform: translate(-50%, -50%) !important;
+                    
+                    /* Ye 3 lines ensure karengi ki video hamesha text ke barabar bada ho jaye */
+                    width: auto !important;
+                    height: auto !important;
+                    min-width: 100% !important;
+                    min-height: 100% !important;
+                    aspect-ratio: 16 / 9 !important;
+                    
+                    z-index: 0 !important;
+                    pointer-events: none !important;
+                }
+                .hero-container {
+                    position: relative;
+                    z-index: 2;
+                    width: 100%;
+                    padding: 50px 0; /* Upar-neeche thodi space dene ke liye */
+                }
+            `}} />
+
             <AnimateOnScroll animation="fadeInUp">
-                <div
-                    ref={videoContainerRef}
-                    className="banner-video-container keep-dark"
-                >
+                <div className="banner-video-container keep-dark">
                     <div id="banner-video-background"></div>
+                    
                     <div className="hero-container position-relative">
                         <div className="d-flex flex-column gspace-2">
                             <AnimateOnScroll animation="fadeInLeft" speed="normal">
-                                {/* Fade effect hatane ke liye style add kiya hai aur text change kiya hai */}
                                <h1 
-    className="title-heading-banner" 
-    style={{ 
-        display: "inline-block",
-        WebkitMaskImage: 'linear-gradient(to right, rgba(0,0,0,1) 55%, rgba(0,0,0,0.15) 100%)', 
-        maskImage: 'linear-gradient(to right, rgba(0,0,0,1) 100%, rgba(0,0,0,0.15) 100%)' 
-    }}
->
-   Make Sure Your Next Customer Finds you<br/> first.
-</h1>
+                                    className="title-heading-banner" 
+                                    style={{ 
+                                        WebkitMaskImage: 'linear-gradient(to right, black 85%, transparent 100%)', 
+                                        maskImage: 'linear-gradient(to right, black 85%, transparent 100%)' 
+                                    }}
+                                >
+                                    Make Sure Your Next Customer Finds you <br/>first.
+                                </h1>
                             </AnimateOnScroll>
                             <div className="banner-heading">
 
@@ -137,15 +122,12 @@ function BannerHomeSection() {
 
                                 <AnimateOnScroll animation="fadeInRight" speed="normal">
                                     <div className="banner-content order-lg-2 order-1">
-                                        {/* Yahan Sub-headline update kar di hai */}
                                         <p>
                                            Dark Metrix is a digital marketing agency helping businesses get found, attract qualified customers and grow globally through SEO, performance marketing, paid ads, social media and conversion-focused web experiences.
-                                        
                                         </p>
                                         <div className="d-flex flex-md-row flex-column justify-content-center justify-content-lg-start align-self-center align-self-lg-start gspace-3">
                                             <a href="./about" className="btn btn-accent">
                                                 <div className="btn-title">
-                                                    {/* Yahan Button ka text update kar diya hai */}
                                                     <span>Get Free Consultation</span>
                                                 </div>
                                                 <div className="icon-circle">

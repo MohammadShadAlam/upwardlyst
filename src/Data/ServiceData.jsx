@@ -5,7 +5,7 @@ export const services = [
         title: "Performance Marketing",
         content: "Turn advertising spend into measurable growth with data-driven campaigns focused on customer acquisition, conversions, sales and ROI.",
         speed: "slow",
-        link: "single_services",
+        link: "/performance-marketing",
 
   },
 
@@ -15,7 +15,7 @@ export const services = [
         title: "Search Engine Optimization",
         content: "Improve Google rankings and attract high-intent organic traffic with technical SEO, local SEO, keyword strategy and search-optimized content.",
         speed: "normal",
-        link: "single_services",
+        link: "/seo",
     },
 
 {
@@ -24,7 +24,7 @@ export const services = [
         title: "PPC Advertising",
         content: "Reach customers actively searching for your services with targeted PPC and Google Ads campaigns optimized for leads and conversions.",
         speed: "fast",
-        link: "single_services",
+        link: "/ppc-advertising",
     },
 
      {
@@ -33,7 +33,7 @@ export const services = [
         title: "Social Media Marketing",
         content: "Build visibility, engagement and demand with strategic social content and paid campaigns designed around your ideal customers.",
         speed: "slow",
-        link: "single_services",
+        link: "/single_services",
     },
 
     {
@@ -42,7 +42,7 @@ export const services = [
         title: "Content Marketing",
         content: "Create search-focused content that answers customer questions, builds authority and turns organic traffic into qualified business opportunities.",
         speed: "slow",
-        link: "single_services",
+        link: "/content-marketing",
     },
 
  {
@@ -51,7 +51,7 @@ export const services = [
         title: "Web & App Development",
         content: "Build fast, SEO-friendly websites and digital products designed to improve user experience, conversions and long-term business growth.",
         speed: "slow",
-        link: "single_services",
+        link: "/web-app-development",
     },
 
 
