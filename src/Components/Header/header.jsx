@@ -25,7 +25,7 @@ return (
                 <div className="logo-container">
                     <Link className="navbar-brand" href="/">
                     <img
-                        src="/assets/images/upwardlyst logo-dark-theme2.png"
+                        src="/assets/images/darkmetrix logo.png"
                         className="site-logo img-fluid"
                         alt="Logo"
                     />

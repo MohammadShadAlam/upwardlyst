@@ -26,11 +26,11 @@ const PerformanceMarketingSection = () => {
                                         </AnimateOnScroll>
                                         <AnimateOnScroll animation="fadeInRight" speed="normal">
                                             <h3 className="title-heading">
-                                                Drive Measurable Results and Maximize ROI
+                                                Turn Every Marketing Move Into Measurable Growth
                                             </h3>
                                         </AnimateOnScroll>
                                         <p>
-                                            Scale your business with data-driven performance marketing strategies designed to generate high-quality leads, increase conversions, and optimize your ad spend.
+                                           Reach the right customers, generate qualified leads and scale what works with performance marketing built around data, conversions and real business outcomes.
                                         </p>
                                     </div>
                                 </div>
@@ -44,8 +44,8 @@ const PerformanceMarketingSection = () => {
                             <div className="d-flex flex-column gspace-2">
                                 <h4>Overview</h4>
                                 <p>
-                                    Darkmetrix helps businesses grow through performance marketing strategies built around audience intent, precise targeting, and measurable ROI. From Google Ads to programmatic advertising, we plan campaigns, manage budgets, and optimize performance to help your brand reach the right people at the right time.
-<br/>Whether you want to lower your customer acquisition cost, generate high-intent leads, or scale an established brand, we turn clicks into meaningful business opportunities.
+                                   Darkmetrix provides performance marketing services designed to turn advertising spend into measurable business growth. We combine paid media, audience targeting, creative testing, conversion optimization and analytics to help businesses acquire customers more efficiently.
+<br/>From generating qualified leads to increasing online sales, every campaign is continuously measured and optimized around the results that matter to your business.
                                 </p>
                                 <div className="row row-cols-md-2 row-cols-1 grid-spacer-2 grid-spacer-md-3">
                                     <div className="col">
@@ -72,23 +72,24 @@ const PerformanceMarketingSection = () => {
                                     <h4>What's Included</h4>
                                     <div className="underline-accent-short"></div>
                                     <p>
-                                        Our performance marketing services combine strategy, advanced targeting, and continuous optimization to help your brand achieve the highest possible return on investment.
+                                       Our performance marketing services connect strategy, advertising, creative and analytics to help you acquire customers, improve conversions and scale profitable campaigns.
                                     </p>
                                     <div className="row row-cols-md-2 row-cols-1 grid-spacer-2">
                                         <div className="col">
                                             <ul className="check-list">
-                                                <li>Google Ads (Search, Display, Performance Max)</li>
-                                                <li>Conversion Rate Optimization (CRO)</li>
-                                                <li>Retargeting & Remarketing Campaigns</li>
-                                                <li>Funnel Tracking & Optimization</li>
-                                                <li>A/B Testing for Ad Creatives</li>
-                                            </ul>
-                                        </div>
-                                        <div className="col">
-                                            <ul className="check-list">
-                                                <li>ROI & CPA Tracking</li>
-                                                <li>Programmatic Advertising</li>
-                                                <li>Custom Dashboards & Reporting</li>
+                                               <li><a href="./performance-marketing">Performance Marketing</a></li>
+                                        <li><a href="./seo">Search Engine Optimization</a></li>
+                                        <li><a href="./ppc-advertising">PPC Advertising</a></li>
+                                       <li><a href="./single_services">Social Media Marketing</a></li>
+                                    <li><a href="./content-marketing">Content Marketing</a></li>
+                                        <li><a href="./web-app-development">Web & App Development</a></li>
+                                      </ul>
+                                    </div>
+                                    <div className="about-list">
+                                      <ul className="check-list">
+                                        
+                                        <li><a href="./content-marketing">Content Marketing</a></li>
+                                        <li><a href="./web-app-development">Web & App Development</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -96,7 +97,7 @@ const PerformanceMarketingSection = () => {
 
                                 <h4>Why Choose Dark Metrix for Performance Marketing?</h4>
                                 <p>
-                                    We go beyond basic ad placement. Every campaign is built around your specific revenue goals and backed by deep data analysis to ensure you get the best value for every dollar spent.
+                                    We don't optimize campaigns for clicks alone. Every decision is guided by customer intent, conversion data and the business outcomes your marketing needs to deliver.
                                 </p>
 
                                 <div className="row row-cols-2">
@@ -105,15 +106,15 @@ const PerformanceMarketingSection = () => {
                                             <div className="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
                                                 <i className="fa-regular fa-2x fa-circle-check accent-color"></i>
                                                 <div className="d-flex flex-column gspace-0">
-                                                    <h5>Data-Driven Targeting</h5>
-                                                    <p>Reaching high-intent users ready to convert.</p>
+                                                    <h5>Intent-Driven Targeting</h5>
+                                                    <p>Reach people most likely to become customers.</p>
                                                 </div>
                                             </div>
                                             <div className="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
                                                 <i className="fa-regular fa-2x fa-circle-check accent-color"></i>
                                                 <div className="d-flex flex-column gspace-0">
-                                                    <h5>Budget Optimization</h5>
-                                                    <p>Maximizing ROI while lowering acquisition costs.</p>
+                                                    <h5>Conversion-Focused Campaigns</h5>
+                                                    <p>Turn qualified traffic into leads and sales.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -123,15 +124,15 @@ const PerformanceMarketingSection = () => {
                                             <div className="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
                                                 <i className="fa-regular fa-2x fa-circle-check accent-color"></i>
                                                 <div className="d-flex flex-column gspace-0">
-                                                    <h5>Performance Focused</h5>
-                                                    <p>Campaigns optimized for actual revenue, not just clicks.</p>
+                                                    <h5>Continuous Optimization</h5>
+                                                    <p>Optimize campaigns for better results.</p>
                                                 </div>
                                             </div>
                                             <div className="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
                                                 <i className="fa-regular fa-2x fa-circle-check accent-color"></i>
                                                 <div className="d-flex flex-column gspace-0">
-                                                    <h5>Transparent Reporting</h5>
-                                                    <p>Clear insights on exactly how your budget is performing.</p>
+                                                    <h5>Transparent Performance</h5>
+                                                    <p>Track spend, conversions and ROAS.</p>
                                                 </div>
                                             </div>
                                         </div>
