@@ -70,11 +70,16 @@ function Sidebar() {
         <div ref={overlayRef} className="sidebar-overlay"></div>
         <div ref={sidebarRef} className="sidebar">
             <div className="sidebar-header">
-                <div className="logo">
-                    <img src="/assets/images/darkmetrix logo.png" className="site-logo img-fluid logo" alt="Logo" />
-                </div>
-                <button className="close-btn"><span>X</span></button>
-            </div>
+    <div className="logo">
+        <img 
+            src="/assets/images/darkmetrix_logo1.png" 
+            className="site-logo img-fluid logo" 
+            alt="Logo" 
+            style={{ width: '180px', height: 'auto', maxWidth: 'none' }} 
+        />
+    </div>
+    <button className="close-btn"><span>X</span></button>
+</div>
             <ul className="menu">
                 <li><a href="/">Home</a></li>
                 {/* Desktop ke hisaab se About Us ko About kar diya hai */}

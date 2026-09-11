@@ -23,14 +23,15 @@ return (
         <nav className="navbar navbar-expand-lg">
             <div className="navbar-container">
                 <div className="logo-container">
-                    <Link className="navbar-brand" href="/">
-                    <img
-                        src="/assets/images/darkmetrix logo.png"
-                        className="site-logo img-fluid"
-                        alt="Logo"
-                    />
-                    </Link>
-                </div>
+    <Link className="navbar-brand" href="/">
+    <img
+        src="/assets/images/darkmetrix_logo1.png"
+        className="site-logo img-fluid"
+        alt="Logo"
+        style={{ width: '220px', height: 'auto', maxWidth: 'none' }} 
+    />
+    </Link>
+</div>
 
                 <button
                     className="navbar-toggler nav-btn"
