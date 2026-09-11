@@ -75,7 +75,7 @@ function Sidebar() {
             src="/assets/images/darkmetrix_logo1.png" 
             className="site-logo img-fluid logo" 
             alt="Logo" 
-            style={{ width: '180px', height: 'auto', maxWidth: 'none' }} 
+            style={{ width: '120px', height: 'auto', maxWidth: 'none' }} 
         />
     </div>
     <button className="close-btn"><span>X</span></button>
