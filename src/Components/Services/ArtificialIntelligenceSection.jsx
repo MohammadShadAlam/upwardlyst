@@ -10,7 +10,7 @@ const ArtificialIntelligenceSection = () => {
                     <div className="image-container">
                         <img
                         src="/assets/images/dummy-img-600x400.jpg"
-                        alt="Artificial Intelligence Service"
+                        alt="Service Image"
                         className="single-service-img"
                         />
                         <div className="single-service-title-layout">
@@ -45,17 +45,25 @@ const ArtificialIntelligenceSection = () => {
                                 <h4>Overview</h4>
                                 <p>
                                     At Dark Metrix, we harness the power of Artificial Intelligence to solve complex business challenges. We build intelligent systems designed to optimize your workflows and enhance customer experiences. From machine learning models and predictive analytics to natural language processing and smart automation, we provide end-to-end AI solutions.
-<br/><br/>Our AI strategies not only streamline your daily operations but also give your business a strong competitive edge, helping you make data-driven decisions with high accuracy.
+<br/>Whether you want to streamline daily operations or build custom AI applications, we turn cutting-edge technology into meaningful business opportunities.
                                 </p>
                                 <div className="row row-cols-md-2 row-cols-1 grid-spacer-2 grid-spacer-md-3">
                                     <div className="col">
                                         <div className="image-container">
-                                        <img src="/assets/images/dummy-img-600x400.jpg" alt="AI Service Image 1" className="img-fluid" />
+                                        <img
+                                            src="/assets/images/dummy-img-600x400.jpg"
+                                            alt="Service Image"
+                                            className="img-fluid"
+                                        />
                                         </div>
                                     </div>
                                     <div className="col">
                                         <div className="image-container">
-                                        <img src="/assets/images/dummy-img-600x400.jpg" alt="AI Service Image 2" className="img-fluid" />
+                                        <img
+                                            src="/assets/images/dummy-img-600x400.jpg"
+                                            alt="Service Image"
+                                            className="img-fluid"
+                                        />
                                         </div>
                                     </div>
                                 </div>
@@ -63,6 +71,9 @@ const ArtificialIntelligenceSection = () => {
                                 <div className="card service-included">
                                     <h4>What's Included</h4>
                                     <div className="underline-accent-short"></div>
+                                    <p>
+                                        Our AI services combine machine learning, automation, and predictive analytics to help your business operate smarter, scale faster, and deliver personalized experiences.
+                                    </p>
                                     <div className="row row-cols-md-2 row-cols-1 grid-spacer-2">
                                         <div className="col">
                                             <ul className="check-list">
@@ -82,54 +93,49 @@ const ArtificialIntelligenceSection = () => {
                                     </div>
                                 </div>
 
-                                {/* 👇 NAYA SECTION YAHAN ADD KIYA HAI 👇 */}
-                                <div className="mt-5">
-                                    <h4 className="mb-3">Why Choose Dark Metrix for Artificial Intelligence?</h4>
-                                    <p>
-                                        We go beyond basic automation. Every AI strategy is built around your business goals, operational efficiency, and data security to create measurable impact.
-                                    </p>
-                                    
-                                    <div className="row row-cols-md-2 row-cols-1 grid-spacer-3 mt-4">
-                                        <div className="col">
-                                            <div className="d-flex gap-3">
-                                                <i className="fa-regular fa-circle-check mt-1" style={{ color: '#a855f7', fontSize: '24px' }}></i>
-                                                <div>
-                                                    <h5 className="fw-bold">Intent-Driven Strategy</h5>
+                                <h4>Why Choose Dark Metrix for Artificial Intelligence?</h4>
+                                <p>
+                                    We go beyond basic automation. Every AI strategy is built around your operational needs, business goals, and data security to create measurable impact.
+                                </p>
+
+                                <div className="row row-cols-2 mt-4">
+                                    <div className="col">
+                                        <div className="d-flex flex-column gspace-2">
+                                            <div className="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
+                                                <i className="fa-regular fa-2x fa-circle-check" style={{ color: '#a855f7' }}></i>
+                                                <div className="d-flex flex-column gspace-0">
+                                                    <h5>Intent-Driven Strategy</h5>
                                                     <p>Built around your operational needs and business goals.</p>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div className="col">
-                                            <div className="d-flex gap-3">
-                                                <i className="fa-regular fa-circle-check mt-1" style={{ color: '#a855f7', fontSize: '24px' }}></i>
-                                                <div>
-                                                    <h5 className="fw-bold">Performance Focused</h5>
-                                                    <p>Solutions optimized for maximum efficiency and ROI.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col">
-                                            <div className="d-flex gap-3">
-                                                <i className="fa-regular fa-circle-check mt-1" style={{ color: '#a855f7', fontSize: '24px' }}></i>
-                                                <div>
-                                                    <h5 className="fw-bold">Custom AI Models</h5>
+                                            <div className="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1 mt-3">
+                                                <i className="fa-regular fa-2x fa-circle-check" style={{ color: '#a855f7' }}></i>
+                                                <div className="d-flex flex-column gspace-0">
+                                                    <h5>Custom AI Models</h5>
                                                     <p>Technology designed to solve your specific industry challenges.</p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col">
-                                            <div className="d-flex gap-3">
-                                                <i className="fa-regular fa-circle-check mt-1" style={{ color: '#a855f7', fontSize: '24px' }}></i>
-                                                <div>
-                                                    <h5 className="fw-bold">Data-Led Decisions</h5>
+                                    </div>
+                                    <div className="col">
+                                        <div className="d-flex flex-column gspace-2">
+                                            <div className="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
+                                                <i className="fa-regular fa-2x fa-circle-check" style={{ color: '#a855f7' }}></i>
+                                                <div className="d-flex flex-column gspace-0">
+                                                    <h5>Performance Focused</h5>
+                                                    <p>Solutions optimized for maximum efficiency and ROI.</p>
+                                                </div>
+                                            </div>
+                                            <div className="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1 mt-3">
+                                                <i className="fa-regular fa-2x fa-circle-check" style={{ color: '#a855f7' }}></i>
+                                                <div className="d-flex flex-column gspace-0">
+                                                    <h5>Data-Led Decisions</h5>
                                                     <p>Clear insights and predictive analytics guide every step.</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                {/* 👆 END: NAYA SECTION 👆 */}
-
                             </div>
                         </div>
                         <div className="col col-lg-4">
@@ -140,7 +146,9 @@ const ArtificialIntelligenceSection = () => {
                                 <ul className="single-service-list">
                                     {services.map((service) => (
                                         <li key={service.id}>
-                                        <a href={service.link} className="hover:underline">{service.title}</a>
+                                        <a href={service.link} className="hover:underline">
+                                            {service.title}
+                                        </a>
                                         </li>
                                     ))}
                                 </ul>
@@ -148,6 +156,9 @@ const ArtificialIntelligenceSection = () => {
                                 <div className="cta-service-banner">
                                     <div className="spacer"></div>
                                     <h3 className="title-heading">Ready to Innovate with AI?</h3>
+                                    <p>
+                                        Take your digital transformation to the next level with data-driven AI strategies and innovative solutions. Let's create something amazing together!
+                                    </p>
                                     <div className="link-wrapper">
                                         <a href="/contact">Contact Us</a>
                                         <i className="fa-solid fa-circle-arrow-right"></i>
