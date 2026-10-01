@@ -65,10 +65,7 @@ function ExpertiseSection(){
                                         <li><a href="./single_services">Social Media Marketing</a></li>
                                         <li><a href="./content-marketing">Content Marketing</a></li>
                                         <li><a href="./web-app-development">Web & App Development</a></li>
-                                     <li className="d-flex align-items-center gap-2">
-    <i className="fa-solid fa-circle-check" style={{ color: '#a855f7' }}></i> 
-    <a href="/artificial-intelligence">Artificial Intelligence</a>
-</li>
+                                        <li> <a href="/artificial-intelligence">Artificial Intelligence</a></li>
                                     </ul>
                                 </div>
 
