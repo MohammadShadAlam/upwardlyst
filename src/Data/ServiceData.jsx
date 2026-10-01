@@ -54,7 +54,14 @@ export const services = [
         link: "/web-app-development",
     },
 
-
+{
+        id: 7,
+        icon: "/assets/images/digital-marketing-icons-N952ZWA.png", 
+        title: "Artificial Intelligence",
+        content: "Automate processes, gain actionable data insights, and drive innovation with custom AI models and intelligent software solutions.",
+        speed: "slow",
+        link: "/artificial-intelligence",
+    },
   
    
 ];

@@ -66,6 +66,7 @@ function AboutSection(){
                                         <li><a href="./performance-marketing">Performance Marketing</a></li>
                                         <li><a href="./seo">Search Engine Optimization</a></li>
                                         <li><a href="./ppc-advertising">PPC Advertising</a></li>
+                                        <li><a href="/artificial-intelligence">Artificial Intelligence</a></li>
                                       </ul>
                                     </div>
                                     <div className="about-list">
@@ -73,6 +74,7 @@ function AboutSection(){
                                         <li><a href="./single_services">Social Media Marketing</a></li>
                                         <li><a href="./content-marketing">Content Marketing</a></li>
                                         <li><a href="./web-app-development">Web & App Development</a></li>
+
                                     </ul>
                                 </div>
                             </div>

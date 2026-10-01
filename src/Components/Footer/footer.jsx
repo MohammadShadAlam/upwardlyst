@@ -11,7 +11,7 @@ const Footer = () => {
                             <div className="col col-lg-4">
                                 <div className="footer-logo-container">
                                     <div className="logo-container-footer">
-                                    <img src="/assets/images/darkmetrix logo1.png" alt="Logo" className="site-logo img-fluid" />
+                                    <img src="/assets/images/darkmetrix_logo1.png" alt="Logo" className="site-logo img-fluid" />
                                     </div>
                                     <h4>Turning Digital Intent Into Growth</h4>
                                     <p>
@@ -44,6 +44,7 @@ const Footer = () => {
                                         <li><a href="/performance-marketing">Performance Marketing</a></li>
                                         <li><a href="/single_services">WhatsApp Marketing</a></li>
                                         <li><a href="/single_services">LinkedIn Marketing</a></li>
+                                        <li><a href="/artificial-intelligence">Artificial Intelligence</a></li>
                                         <li><a href="/single_services">Email Marketing</a></li>
                                         <li><a href="/single_services">Social Media Marketing</a></li>
                                         <li><a href="/web-app-development">Web & App Development</a></li>
