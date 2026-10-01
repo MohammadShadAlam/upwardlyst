@@ -99,6 +99,7 @@ function Sidebar() {
                         <li><a href="/single_services">Social Media Marketing</a></li>
                         <li><a href="/content-marketing">Content Marketing</a></li>
                         <li><a href="/web-app-development">Web & App Development</a></li>
+                        <li><a href="/artificial-intelligence">Artificial Intelligence</a></li>
                     </ul>
                 </li>
 

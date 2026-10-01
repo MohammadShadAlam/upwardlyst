@@ -89,6 +89,7 @@ return (
                                 <li><Link href="/single_services" className="dropdown-item">Social Media Marketing</Link></li>
                                 <li><Link href="/content-marketing" className="dropdown-item">Content Marketing</Link></li>
                                 <li><Link href="/web-app-development" className="dropdown-item">Web & App Development</Link></li>
+                                <li><Link href="/artificial-intelligence" className="dropdown-item">Artificial Intelligence</Link></li>
                             </ul>
                         </li>
 
