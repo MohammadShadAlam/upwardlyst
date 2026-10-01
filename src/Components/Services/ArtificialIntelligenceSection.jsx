@@ -81,6 +81,55 @@ const ArtificialIntelligenceSection = () => {
                                         </div>
                                     </div>
                                 </div>
+
+                                {/* 👇 NAYA SECTION YAHAN ADD KIYA HAI 👇 */}
+                                <div className="mt-5">
+                                    <h4 className="mb-3">Why Choose Dark Metrix for Artificial Intelligence?</h4>
+                                    <p>
+                                        We go beyond basic automation. Every AI strategy is built around your business goals, operational efficiency, and data security to create measurable impact.
+                                    </p>
+                                    
+                                    <div className="row row-cols-md-2 row-cols-1 grid-spacer-3 mt-4">
+                                        <div className="col">
+                                            <div className="d-flex gap-3">
+                                                <i className="fa-regular fa-circle-check mt-1" style={{ color: '#a855f7', fontSize: '24px' }}></i>
+                                                <div>
+                                                    <h5 className="fw-bold">Intent-Driven Strategy</h5>
+                                                    <p>Built around your operational needs and business goals.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col">
+                                            <div className="d-flex gap-3">
+                                                <i className="fa-regular fa-circle-check mt-1" style={{ color: '#a855f7', fontSize: '24px' }}></i>
+                                                <div>
+                                                    <h5 className="fw-bold">Performance Focused</h5>
+                                                    <p>Solutions optimized for maximum efficiency and ROI.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col">
+                                            <div className="d-flex gap-3">
+                                                <i className="fa-regular fa-circle-check mt-1" style={{ color: '#a855f7', fontSize: '24px' }}></i>
+                                                <div>
+                                                    <h5 className="fw-bold">Custom AI Models</h5>
+                                                    <p>Technology designed to solve your specific industry challenges.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col">
+                                            <div className="d-flex gap-3">
+                                                <i className="fa-regular fa-circle-check mt-1" style={{ color: '#a855f7', fontSize: '24px' }}></i>
+                                                <div>
+                                                    <h5 className="fw-bold">Data-Led Decisions</h5>
+                                                    <p>Clear insights and predictive analytics guide every step.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* 👆 END: NAYA SECTION 👆 */}
+
                             </div>
                         </div>
                         <div className="col col-lg-4">
