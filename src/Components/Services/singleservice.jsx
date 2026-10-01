@@ -9,7 +9,7 @@ const SingleServiceSection = () => {
                 <div className="d-flex flex-column gspace-5">
                     <div className="image-container">
                         <img
-                        src="/assets/images/dummy-img-600x400.jpg"
+                        src="/assets/images/Social-1.png"
                         alt="Service Image"
                         className="single-service-img"
                         />
@@ -51,7 +51,7 @@ const SingleServiceSection = () => {
                                     <div className="col">
                                         <div className="image-container">
                                         <img
-                                            src="/assets/images/dummy-img-600x400.jpg"
+                                            src="/assets/images/Social-1.png"
                                             alt="Service Image"
                                             className="img-fluid"
                                         />
@@ -60,7 +60,7 @@ const SingleServiceSection = () => {
                                     <div className="col">
                                         <div className="image-container">
                                         <img
-                                            src="/assets/images/dummy-img-600x400.jpg"
+                                            src="/assets/images/Social-2.png"
                                             alt="Service Image"
                                             className="img-fluid"
                                         />

@@ -11,7 +11,7 @@ function AboutSection(){
                         <div className="image-container about-img">
                             <AnimateOnScroll animation="fadeInUp" speed="normal">
                             <img
-                                src="/assets/images/dummy-img-600x400.jpg"
+                                src="/assets/images/About-1.png"
                                 alt="About Us Image"
                                 className="img-fluid"
                             />
