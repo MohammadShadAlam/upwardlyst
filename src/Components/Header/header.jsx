@@ -25,10 +25,10 @@ return (
                 <div className="logo-container">
     <Link className="navbar-brand" href="/">
     <img
-        src="/assets/images/upwardlyst logo-dark-theme2.png"
+        src="/assets/images/darkmetrix_logo1.png"
         className="site-logo img-fluid"
         alt="Logo"
-        style={{ width: '150px', height: 'auto', maxWidth: 'none' }} 
+        style={{ width: '115px', maxWidth: '100%', height: 'auto' }} 
     />
     </Link>
 </div>
