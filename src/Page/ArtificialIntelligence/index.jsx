@@ -7,7 +7,8 @@ import NewsletterSection from "../../Components/Form/Newsletter";
 import TestimonialSection from "../../Components/Testimonial/testimonial";
 import FaqSection from "../../Components/FAQs/faq";
 
-
+// Naya component yahan import kiya hai
+import ArtificialIntelligenceSection from "../../Components/Services/ArtificialIntelligenceSection"; 
 
 function ArtificialIntelligencePage(){
     return(
@@ -15,11 +16,8 @@ function ArtificialIntelligencePage(){
             <HeadTitle title="Artificial Intelligence - Dark Metrix - Digital Marketing Agency" />
             <BannerInnerSection title="Artificial Intelligence" currentPage="Services Details" />
             
-            
-            <div className="section" style={{ padding: '100px 0', textAlign: 'center', minHeight: '40vh' }}>
-                <h2 className="title-heading" style={{ color: '#a855f7' }}>AI Solutions</h2>
-                <p>Detailed content for Artificial Intelligence will be updated here.</p>
-            </div>
+            {/* Ye raha aapka same-to-same service design */}
+            <ArtificialIntelligenceSection /> 
             
             <TestimonialSection />
             <NewsletterSection />

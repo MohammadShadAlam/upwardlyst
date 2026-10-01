@@ -2,7 +2,7 @@ import React from "react";
 import { services } from "../../Data/ServiceData";
 import AnimateOnScroll from "../Hooks/AnimateOnScroll";
 
-const ContentMarketingSection = () => {
+const ArtificialIntelligenceSection = () => {
     return (
         <div className="section pb-0">
             <div className="hero-container">
@@ -10,7 +10,7 @@ const ContentMarketingSection = () => {
                     <div className="image-container">
                         <img
                         src="/assets/images/dummy-img-600x400.jpg"
-                        alt="Content Marketing Service"
+                        alt="Artificial Intelligence Service"
                         className="single-service-img"
                         />
                         <div className="single-service-title-layout">
@@ -26,11 +26,11 @@ const ContentMarketingSection = () => {
                                         </AnimateOnScroll>
                                         <AnimateOnScroll animation="fadeInRight" speed="normal">
                                             <h3 className="title-heading">
-                                                Engage Your Audience with Compelling Content
+                                                Transform Your Business with Advanced AI Solutions
                                             </h3>
                                         </AnimateOnScroll>
                                         <p>
-                                            Tell your brand's story, build trust, and drive conversions with high-quality, SEO-optimized content tailored to your target audience.
+                                            Automate processes, gain actionable data insights, and drive innovation with cutting-edge Artificial Intelligence tailored for your business growth.
                                         </p>
                                     </div>
                                 </div>
@@ -44,18 +44,18 @@ const ContentMarketingSection = () => {
                             <div className="d-flex flex-column gspace-2">
                                 <h4>Overview</h4>
                                 <p>
-                                    At Darkmetrix, we believe that content is the voice of your brand. We create strategic, valuable, and relevant content designed to attract and retain a clearly defined audience. From engaging blog posts and website copy to informative whitepapers and video scripts, we do it all.
-<br/>Our content marketing strategies not only boost your SEO rankings but also establish your brand as an industry authority, ultimately driving profitable customer action.
+                                    At Dark Metrix, we harness the power of Artificial Intelligence to solve complex business challenges. We build intelligent systems designed to optimize your workflows and enhance customer experiences. From machine learning models and predictive analytics to natural language processing and smart automation, we provide end-to-end AI solutions.
+<br/><br/>Our AI strategies not only streamline your daily operations but also give your business a strong competitive edge, helping you make data-driven decisions with high accuracy.
                                 </p>
                                 <div className="row row-cols-md-2 row-cols-1 grid-spacer-2 grid-spacer-md-3">
                                     <div className="col">
                                         <div className="image-container">
-                                        <img src="/assets/images/dummy-img-600x400.jpg" alt="Service Image" className="img-fluid" />
+                                        <img src="/assets/images/dummy-img-600x400.jpg" alt="AI Service Image 1" className="img-fluid" />
                                         </div>
                                     </div>
                                     <div className="col">
                                         <div className="image-container">
-                                        <img src="/assets/images/dummy-img-600x400.jpg" alt="Service Image" className="img-fluid" />
+                                        <img src="/assets/images/dummy-img-600x400.jpg" alt="AI Service Image 2" className="img-fluid" />
                                         </div>
                                     </div>
                                 </div>
@@ -66,17 +66,17 @@ const ContentMarketingSection = () => {
                                     <div className="row row-cols-md-2 row-cols-1 grid-spacer-2">
                                         <div className="col">
                                             <ul className="check-list">
-                                                <li>Content Strategy & Planning</li>
-                                                <li>Blog & Article Writing</li>
-                                                <li>SEO Copywriting</li>
-                                                <li>Website Content Revamp</li>
+                                                <li>AI Strategy & Consulting</li>
+                                                <li>Machine Learning Models</li>
+                                                <li>Predictive Data Analytics</li>
+                                                <li>Business Process Automation</li>
                                             </ul>
                                         </div>
                                         <div className="col">
                                             <ul className="check-list">
-                                                <li>Email Newsletters</li>
-                                                <li>Video Scripts & Storyboarding</li>
-                                                <li>E-books & Whitepapers</li>
+                                                <li>Natural Language Processing (NLP)</li>
+                                                <li>Custom AI App Development</li>
+                                                <li>Chatbots & Virtual Assistants</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -98,7 +98,7 @@ const ContentMarketingSection = () => {
                                 </div>
                                 <div className="cta-service-banner">
                                     <div className="spacer"></div>
-                                    <h3 className="title-heading">Ready to Tell Your Story?</h3>
+                                    <h3 className="title-heading">Ready to Innovate with AI?</h3>
                                     <div className="link-wrapper">
                                         <a href="/contact">Contact Us</a>
                                         <i className="fa-solid fa-circle-arrow-right"></i>
@@ -113,4 +113,4 @@ const ContentMarketingSection = () => {
     );
 };
 
-export default ArtificialIntelligence;
+export default ArtificialIntelligenceSection;
